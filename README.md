@@ -71,6 +71,18 @@ flutter run --dart-define=CHANNEL_NAME=test --dart-define=PLATFORM=android123
 //for ipa
 ./fios_build.sh appstore ios
 
+//for muti-channel
+./fapk_build.sh mi android
+./fapk_build.sh oppo android
+./fapk_build.sh vivo android
+./fapk_build.sh baidu android
+./fapk_build.sh ali android
+./fapk_build.sh huawei android
+./fapk_build.sh qq android
+./fapk_build.sh 360 android
+./fapk_build.sh www android
+./fapk_build.sh dev android
+
 ```
 
 
