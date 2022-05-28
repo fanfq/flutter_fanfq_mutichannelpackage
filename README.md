@@ -57,6 +57,9 @@ flutter run --dart-define=CHANNEL_NAME=test --dart-define=PLATFORM=android123
 
 <img src="images/preview.png" width="320" height="480" alt="图片描述文字"/>
 
+<img src="images/1.png" alt="图片描述文字"/>
+
+<img src="images/2.png" alt="图片描述文字"/>
 
 ## build
 
