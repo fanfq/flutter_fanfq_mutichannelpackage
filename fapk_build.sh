@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # ./fapk_build.sh [channelname] [platfrom]
 SHELL_FOLDER=$(cd "$(dirname "$0")";pwd)
 DESK_FOLDER=$SHELL_FOLDER/dest/

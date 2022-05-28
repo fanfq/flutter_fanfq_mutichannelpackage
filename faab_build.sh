@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # faab_channel.sh [channelname] [platfrom]
 # faab_build.sh googleplay android
 

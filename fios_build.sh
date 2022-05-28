@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # ./fios_build.sh appstore ios
 SHELL_FOLDER=$(cd "$(dirname "$0")";pwd)
 DESK_FOLDER=$SHELL_FOLDER/dest/
