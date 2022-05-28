@@ -8,13 +8,13 @@ A new Flutter project.
 
 [package_info_plus](https://pub.dev/packages/package_info_plus)
 
-```aidl
+```yaml
 
   package_info_plus: ^1.4.2
   
 ```
 
-```aidl
+```dart
 
   late String channelName = "";
   late String platform = "";
@@ -49,7 +49,7 @@ A new Flutter project.
 
 ## preview
 
-```aidl
+```shell
 
 flutter run --dart-define=CHANNEL_NAME=test --dart-define=PLATFORM=android123
 
@@ -60,7 +60,7 @@ flutter run --dart-define=CHANNEL_NAME=test --dart-define=PLATFORM=android123
 
 ## build
 
-```aidl
+```shell
 
 //for .abb
 ./faab_build.sh googleplay android
@@ -78,7 +78,7 @@ flutter run --dart-define=CHANNEL_NAME=test --dart-define=PLATFORM=android123
 
 `android/app/build.gradle`
 
-```aidl
+```groovy
 
 /// 获取渠道参数使用,这里设置一下默认值
 def dartEnvironmentVariables = [
@@ -116,4 +116,4 @@ android {
 
 ## 参考文献
 
-[Flutter 中如何优雅的实现多渠道打包（埋点统计系列）]https://juejin.cn/post/6949901619689586719)
+[Flutter 中如何优雅的实现多渠道打包（埋点统计系列）](https://juejin.cn/post/6949901619689586719)
