@@ -53,6 +53,7 @@ A new Flutter project.
 
 flutter run --dart-define=CHANNEL_NAME=test --dart-define=PLATFORM=android123
 
+flutter run --dart-define=CHANNEL_NAME=appstore --dart-define=PLATFORM=ios
 ```
 
 <img src="images/preview.png" width="320" height="480" alt="图片描述文字"/>
@@ -91,7 +92,32 @@ flutter run --dart-define=CHANNEL_NAME=test --dart-define=PLATFORM=android123
 
 <img src="images/2.png" alt="图片描述文字"/>
 
-## setup
+## setup iOS
+
+```shell
+
+//preivew
+flutter run --dart-define=CHANNEL_NAME=appstore --dart-define=PLATFORM=ios
+
+//build
+flutter build ios --dart-define=CHANNEL_NAME=appstore --dart-define=PLATFORM=ios
+
+//install iOS depends
+sudo gem install -n /usr/local/bin cocoapods 
+
+//distribute  with xcode 
+1. delete 'ios/Podfile.lock'
+2. 'pod install'
+3. 'flutter clean'
+4. 'flutter run'
+5. xcode open 'ios/Runner.xcworkspace'
+6. setup signing 'iOS develop account'
+7. 'Product' ->  'Archive' 
+8. chose 'App Store Connect' -> 'upload'
+
+```
+
+## setup Android
 
 `android/app/build.gradle`
 

@@ -11,5 +11,5 @@ fi
 #echo $DESK_FOLDER
 
 flutter build ios --dart-define=CHANNEL_NAME=$1 --dart-define=PLATFORM=$2
-cd build/app/outputs/apk/release/
-cp -R *.apk $DESK_FOLDER
+#cd build/ios/iphoneos/
+#cp -R *.ipad $DESK_FOLDER
